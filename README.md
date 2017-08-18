@@ -13,9 +13,9 @@
 
 # 如何使用
 
-在该项目的帮助下，我们的Spring Boot可以轻松的引入swagger2，主需要做下面两个步骤：
+在该项目的帮助下，我们的Spring Boot可以轻松的引入swagger2，主需要做下面配置：
 
-- 在`pom.xml`中引入依赖：
+- 在`pom.xml`中引入依赖即可，不需要任何配置，无任何代码侵入：
 
 ```xml
 <dependency>
