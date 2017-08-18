@@ -1,4 +1,36 @@
-example
+#简介
+
+该项目主要利用Spring Boot的自动化配置特性来实现快速的将swagger2引入spring boot应用来生成API文档，简化原生使用swagger2的整合代码。
+
+- GitHub：https://github.com/lazycathome/spring-boot-starter-swagger
+
+**小工具一枚，欢迎使用和Star支持，如使用过程中碰到问题，可以提出Issue，我会尽力完善该Starter**
+
+# 版本基础
+
+- Spring Boot：1.5.x
+- Swagger：2.7.x
+
+# 如何使用
+
+在该项目的帮助下，我们的Spring Boot可以轻松的引入swagger2，主需要做下面两个步骤：
+
+- 在`pom.xml`中引入依赖：
+
+```xml
+<dependency>
+	<groupId>cn.bigdb</groupId>
+	<artifactId>spring-boot-starter-swagger</artifactId>
+	<version>1.0</version>
+</dependency>
+
+# 参数配置
+
+更细致的配置内容参考如下：
+
+## 配置示例
+
+```yml
 springfox:
   api:
     env: dev    //开放的环境，默认是dev
